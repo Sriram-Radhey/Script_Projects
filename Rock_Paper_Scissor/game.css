@@ -1,0 +1,58 @@
+body{
+    margin: auto;
+    width: 100vh;
+}
+.container{
+    margin-top: 0.25rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.con-RPS{
+    display: flex;
+    width: 800px;
+    justify-content: space-evenly;
+}
+#uscore,#cscore{
+    font-size: 4rem;
+}
+.score-b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 0.25rem;
+    gap: 5rem;
+  }
+#msg-c{
+    margin-top: 0.25rem;
+}
+#msg{
+    background-color: rgb(20, 21, 21);
+    color: rgb(244, 239, 239);
+    padding: 1rem;
+    padding-left: 14rem;
+    font-size: 2rem;
+}
+#id1,#id3{
+    border: 2px solid black;
+    border-radius: 50%;
+    object-fit: contain;
+    background-color: black;
+}
+#id2{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: contain;
+    border: 2px solid black;
+}
+#id1:hover{
+    border: 3px solid cyan;
+}
+#id2:hover{
+    border: 3px solid cyan;
+}
+#id3:hover{
+    border: 3px solid cyan;
+}
