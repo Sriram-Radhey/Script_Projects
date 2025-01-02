@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calC.css"/>
+</head>
+<body>
+    <div class="container">
+        <div id="contain">
+        <div class="header">
+            <h1>Standard Calculator</h1>
+            <input id="input-f" readonly>
+        </div>
+
+        <div class="numbers-1">
+            <div id="btnC">
+                <button onclick="getValue('x2')">x²</button>
+                <button onclick="getValue('rx')">√x</button>
+                <button onclick="clearField()" id="cbtn">C</button>
+                <button onclick="appendOp('/')">÷</button>
+            </div>
+
+            <div id="btnC">
+                <button onclick="appendOp('7')">7</button>
+                <button onclick="appendOp('8')">8</button>
+                <button onclick="appendOp('9')">9</button>
+                <button onclick="appendOp('*')">*</button>
+            </div>
+
+            <div id="btnC">
+                <button onclick="appendOp('4')">4</button>
+                <button onclick="appendOp('5')">5</button>
+                <button onclick="appendOp('6')">6</button>
+                <button onclick="appendOp('-')">-</button>
+            </div>
+
+            <div id="btnC">
+                <button onclick="appendOp('1')">1</button>
+                <button onclick="appendOp('2')">2</button>
+                <button onclick="appendOp('3')">3</button>
+                <button onclick="appendOp('+')">+</button>
+            </div>
+
+            <div id="btnC">
+                <button onclick="getValue('+/-')">+/-</button>
+                <button onclick="appendOp('0')">0</button>
+                <button onclick="appendOp('.')">.</button>
+                <button onclick="evalUate()">=</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="calC.js"></script>
+</body>
+</html>
